@@ -20,6 +20,10 @@ export default defineConfig({
         find: "lib",
         replacement: resolve(__dirname, "lib"),
       },
+      {
+        find: "react-dom",
+        replacement: resolve(__dirname, "node_modules/react-dom/client.js"),
+      },
     ],
   },
 });
